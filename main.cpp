@@ -44,5 +44,6 @@ int main()
         cin >> w[i];
     dfs(1, -1);
     cout << max(G[1], NG[1]) << endl;
+    // sourse
     return 0;
 }
